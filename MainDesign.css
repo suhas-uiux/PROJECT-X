@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=League+Spartan:wght@100..900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+p1 {
+    font-family: League Spartan;
+    color: white;
+}
+
+body {
+    background-color: rgba(36, 36, 44, 1);
+    background-size: cover;
+}
+
+.title {
+    margin-left: 30px;
+}
+
+.para {
+    margin-left: 30px;
+}
+
+#logo img {
+    height: 50px;
+    margin-right: 326px;
+}
+
+p {
+    color: #ffffff;
+    font-family: IBM Plex Mono;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    margin-top: 15px;
+    padding: 0;
+    margin-right: 10px;
+}
+
+#navbar {
+    padding-left: 40px;
+    margin-top: 20px;
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+
+
+
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: flex-end;
+    font-family: Inria Serif;
+}
+
+#navbar ul li {
+    padding: 3px 39px;
+    list-style: none;
+    justify-content: flex-end;
+
+
+}
+
+#navbar ul li a {
+    color: #7C93C3;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: League Spartan;
+
+}
+
+.btn {
+
+    margin-left: 290px;
+    border-radius: 20px;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #7C93C3;
+    cursor: pointer;
+    color: white;
+    font-family: Inria Serif;
+    box-shadow: 2px 2px 10px 5px #7C93C3;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: #7C93C3;
+    box-shadow: 2px 2px 20px 5px #7C93C3;
+    transform: scale(1.1);
+    text-shadow: 0px 0px 2px white;
+
+}
+
+#navbar li a:hover {
+    color: #7C93C3;
+
+
+}
+
+/* .title {
+    margin: 0;
+    padding: 0;
+}*/
+
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding-top: 40px;
+    color: #FFF;
+    font-family: League Spartan;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+
+}
+
+span {
+    color: #9458E0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+
+}
+
+h2 {
+    color: #FFF;
+    font-family: League Spartan;
+    font-size: 76px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+#section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+#section img {
+    width: 683px;
+    height: 488px;
+}
+.second-page img,
+.third-page img {
+    width: 425px; 
+    height: 279px; 
+    object-fit: cover;
+}
+
+.second-page .hero-textbox1 img {
+    width: 907px;
+    height: 488px;
+    object-fit: cover; 
+}
+
+/* In the .third-page CSS */
+.third-page .hero-textbox1 img {
+    width: 907px;
+    height: 488px;
+    object-fit: cover; 
+}
+
+p {
+    color: #ffffff;
+    font-family: IBM Plex Mono;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    margin-top: 15px;
+    padding: 0;
+    margin-right: 10px;
+
+
+}
+
+.btnn {
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #7C93C3;
+    cursor: pointer;
+    color: white;
+    font-family: IBM Plex Mono;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btnn:hover {
+    background-color: #7C93C3;
+    box-shadow: 2px 2px 20px 5px #7C93C3;
+    transform: scale(1.1);
+    text-shadow: 0px 0px 2px white;
+}
+
+
+
+.second-page {
+    height: 100vh;
+    margin-top: 73px;
+    position: relative;
+    background-color: #1E1E22;
+    /* url(images/background-furniture.jpg); */
+    background-size: cover;
+}
+
+.hero {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* max-width: 1300px; */
+
+    padding: 0 32px;
+
+    padding-top: 0px;
+
+}
+
+.primary-heading span {
+    font-family: League Spartan;
+    color: #7C93C3;
+}
+
+.hero-textbox p {
+    font-family: League Spartan;
+
+}
+
+
+
+.second-page .img {
+    position: absolute;
+    animation: slideInFromLeft 2s ease-in 1s 1 normal forwards;
+    left: 600px;
+    /* Initial position */
+    transition: left 1s ease;
+    /* Transition property */
+}
+
+@keyframes slideInFromLeft {
+    from {
+        left: -700px;
+        /* Starting position */
+    }
+
+    to {
+        left: 0px;
+        /* Final position */
+    }
+}
+
+/*------------------------------- third page---------------------- */
+#s-p1 {
+    display: flex;
+    /* background-color: #24242C; */
+}
+
+.third-page {
+    height: 100vh;
+    position: relative;
+
+    /* url(images/background-furniture.jpg); */
+    background-size: cover;
+}
+
+.hero1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* max-width: 1300px; */
+    margin-left: 20px;
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 73px;
+    width: 900px;
+
+}
+
+.primary-heading1 span {
+    font-family: League Spartan;
+}
+
+.primary-heading1 {
+    padding-top: 10px;
+}
+
+.hero-textbox1 p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+
+
+.third-page .img {
+    position: absolute;
+    animation: slideInFromright 2s ease-in 1s 1 normal forwards;
+
+    left: 600px;
+    /* Initial position */
+    transition: left 1s ease;
+    /* Transition property */
+}
+
+@keyframes slideInFromright {
+    from {
+        left: -700px;
+        /* Starting position */
+    }
+
+    to {
+        left: 0px;
+        /* Final position */
+    }
+}
+
+/* -------------------forth------------------------------------ */
+#forth-page {
+    margin-bottom: 20px;
+}
+
+#forth-page::before {
+    content: "";
+    position: absolute;
+    background: url("new.png") no-repeat;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+}
+
+
+.more {
+    margin-left: 27%;
+    color: #9458E0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 3.1px #9458E0;
+
+}
+
+#containers {
+    display: flex;
+}
+
+#containers .box {
+    border: 2px solid rgb(126, 6, 196);
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: rgb(57 0 79 / 38%);
+    margin-bottom: 0px;
+    height: 500px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    cursor: pointer;
+}
+
+.box:hover {
+    background-color: #79207a;
+    box-shadow: 2px 2px 20px 5px #b53ac5;
+    transform: scale(1.1);
+
+
+}
+
+#fif-page::before {
+    content: "";
+    position: absolute;
+    background-color: rgb(154 70 235);
+    width: 100%;
+    height: 50%;
+    z-index: -1;
+    background-size: cover;
+}

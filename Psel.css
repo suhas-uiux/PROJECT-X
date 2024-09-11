@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #24242C;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: League Spartan;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 900px;
+    /* Container width */
+    margin-top: 70px;
+    /* Space at the top for the heading */
+}
+
+.outer {
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px;
+    width: 400px;
+    height: 200px;
+    background-color: aliceblue;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+   
+    
+}
+
+.outer:hover {
+    transform: scale(1.05);
+    /* Slightly increase the size on hover */
+    box-shadow: 0 8px 16px rgba(239, 239, 239, 0.2);
+    /* Add a shadow on hover */
+}
+
+.inner {
+    border-radius: 20px 65px 65px 20px;
+    padding-right: 130px;
+    margin-right: 10px;
+    margin-left: 0;
+    flex-grow: 1;
+    height: 100%;
+    background-color: #36474F;
+   
+   
+}
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer p {
+    margin-left: 20px;
+    font-size: 1.2em;
+    text-align: center;
+    flex-grow: 1;
+    background-color: aliceblue;
+}
+
+h1 {
+    color: white;
+    margin: 30px;
+    font-family: League Spartan;
+    font-weight: 400;
+    font-size: 65px;
+}
+
+p1 {
+    color: white;
+    font-size: x-large;
+    font-family: League Spartan;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+
+}
+
